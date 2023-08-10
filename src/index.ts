@@ -6,7 +6,7 @@ function sb(str: string): string {
   if(beian_strings.includes(str)) {
     return str;
   } else {
-    throw new Error(`"${str}" 没有经过备案，暂时无法使用`);
+    throw new Error(`字符串 "${str}" 没有经过备案，暂时无法使用`);
   }
 }
 
