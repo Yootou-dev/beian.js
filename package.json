@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -11,7 +11,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "convert":"node ./scripts/convert.js",
+    "convert": "node ./scripts/convert.js",
     "start": "tsdx watch",
     "build": "npm run convert && tsdx build",
     "test": "tsdx test",
