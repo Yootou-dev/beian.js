@@ -17,6 +17,7 @@
 ## 使用方法
 
 ```js
+// sb 是 string beian 的缩写
 import sb from 'beian.js'
 
 sb('hello world') // true
