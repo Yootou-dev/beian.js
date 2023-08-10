@@ -17,6 +17,8 @@ jobs:
           node-version: 14.x
       - name: update package version
         run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           npm version patch
       - name: npm install, build 
         run: |
