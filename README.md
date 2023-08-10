@@ -16,5 +16,5 @@ import sb from 'beian.js'
 
 sb('hello world') // true
 
-sb('bye world') // throw Error
+sb('bye world') // throw Error 字符串 "bye world" 没有经过备案，暂时无法使用
 ```
